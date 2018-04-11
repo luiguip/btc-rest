@@ -1,0 +1,26 @@
+{
+  "name": "btc-rest",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^2.0.0",
+    "cookie-parser": "~1.4.3",
+    "cron": "^1.3.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "moment": "^2.22.0",
+    "morgan": "~1.9.0",
+    "mysql": "^2.15.0",
+    "poloniex-api-node": "^1.8.1",
+    "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.10.0"
+  }
+}
